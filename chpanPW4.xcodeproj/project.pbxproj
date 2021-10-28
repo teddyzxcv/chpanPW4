@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0973434A272B070A00422DAD /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09734349272B070A00422DAD /* NoteCell.swift */; };
+		0973434C272B0ABD00422DAD /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0973434B272B0ABD00422DAD /* NoteViewController.swift */; };
+		0973434E272B0AFE00422DAD /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0973434D272B0AFE00422DAD /* Note.swift */; };
 		09D4AEB72722FB9F009BE775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AEB62722FB9F009BE775 /* AppDelegate.swift */; };
 		09D4AEB92722FB9F009BE775 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AEB82722FB9F009BE775 /* SceneDelegate.swift */; };
 		09D4AEBB2722FB9F009BE775 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AEBA2722FB9F009BE775 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09734349272B070A00422DAD /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		0973434B272B0ABD00422DAD /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		0973434D272B0AFE00422DAD /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		09D4AEB32722FB9F009BE775 /* chpanPW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chpanPW4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D4AEB62722FB9F009BE775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09D4AEB82722FB9F009BE775 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				09D4AEBF2722FBA4009BE775 /* Assets.xcassets */,
 				09D4AEC12722FBA4009BE775 /* LaunchScreen.storyboard */,
 				09D4AEC42722FBA4009BE775 /* Info.plist */,
+				09734349272B070A00422DAD /* NoteCell.swift */,
+				0973434B272B0ABD00422DAD /* NoteViewController.swift */,
+				0973434D272B0AFE00422DAD /* Note.swift */,
 			);
 			path = chpanPW4;
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 				09D4AEBB2722FB9F009BE775 /* ViewController.swift in Sources */,
 				09D4AEB72722FB9F009BE775 /* AppDelegate.swift in Sources */,
 				09D4AEB92722FB9F009BE775 /* SceneDelegate.swift in Sources */,
+				0973434C272B0ABD00422DAD /* NoteViewController.swift in Sources */,
+				0973434A272B070A00422DAD /* NoteCell.swift in Sources */,
+				0973434E272B0AFE00422DAD /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
