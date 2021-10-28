@@ -38,5 +38,16 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action:  #selector(createNote(sender:)))
     
     }
+    
+    @objc func createNote(sender: UIBarButtonItem) {
+        guard let vc =
+        storyboard?.instantiateViewController(withIdentifier:
+        "NoteViewController") as? NoteViewController else {
+        return
+        }
+        vc.outputVC = self
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
   
 }
